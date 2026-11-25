@@ -1,0 +1,13 @@
+{
+  "name": "donkey-taxis",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Donkey Taxis website draft (plain HTML + Tailwind v3)",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --minify",
+    "watch": "tailwindcss -i ./src/input.css -o ./assets/css/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
